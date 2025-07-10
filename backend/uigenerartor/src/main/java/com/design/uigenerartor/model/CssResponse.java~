@@ -1,0 +1,31 @@
+package com.design.cssgenerartor.model;
+
+    public class CssResponse {
+        private String cssCode;
+        private String errorMessage;
+
+        public CssResponse(String cssCode) {
+            this.cssCode = cssCode;
+        }
+
+        public CssResponse(String cssCode, String errorMessage) {
+            this.cssCode = cssCode;
+            this.errorMessage = errorMessage;
+        }
+
+        public String getCssCode() {
+            return cssCode;
+            }
+
+        public void setCssCode(String cssCode) {
+            this.cssCode = cssCode;
+        }
+
+        public String getErrorMessage() {
+            return errorMessage;
+        }
+
+        public void setErrorMessage(String errorMessage) {
+            this.errorMessage = errorMessage;
+        }
+}
