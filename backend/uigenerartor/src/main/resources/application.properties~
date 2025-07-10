@@ -1,9 +1,0 @@
-spring.application.name=cssgenerartor
-# Server port for the backend application
-server.port=8089
-
-# Gemini API configuration
-# IMPORTANT: Replace YOUR_GOOGLE_GEMINI_API_KEY with your actual Gemini API key.
-# In a production environment, consider using environment variables or a secrets management system.
-gemini.api.key=AIzaSyARpHrRXmjdgg9ORJXZ5zR6NYxnooM3bxc
-gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
